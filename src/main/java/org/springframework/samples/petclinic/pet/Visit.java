@@ -114,13 +114,16 @@ public class Visit extends BaseEntity {
 		this.pet = pet;
 	}
 
+	@ManyToOne
+	@JoinColumn(name = "visit_recoveryroom")
+	private RecoveryRoom recoveryRoom;
+
 	public RecoveryRoom getRecoveryRoom() {
-		// To be implemented
-		return null;
+		return this.recoveryRoom;
 	}
 
 	public void setRecoveryRoom(RecoveryRoom room) {
-		// To be implemented
+		this.recoveryRoom = room;
 	}
 
 }
