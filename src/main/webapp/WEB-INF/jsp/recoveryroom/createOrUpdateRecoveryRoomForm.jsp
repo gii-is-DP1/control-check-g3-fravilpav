@@ -23,9 +23,9 @@
                 <petclinic:inputField label="Room name" name="name"/>
                 <petclinic:inputField label="Room size in m2" name="size"/>
                 <petclinic:checkboxField label="Secure room?" name="secure"/>
-                <div class="control-group">
+                <!-- <div class="control-group">
                     <petclinic:selectField name="type" label="Room type " names="${types}" size="5"/>
-                </div>
+                </div> -->
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
